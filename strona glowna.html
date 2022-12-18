@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Anna Michalska Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="styles sg.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sunshiney&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="bg">
+        <div class="b1">
+            <div class="img1"><img src="img/sg1.JPG"></div>
+            <div class="img2"><img src="img/sg2.JPG"></div>
+            <div class="img3"><img src="img/sg3.JPG"></div>
+            <div class="img4"><img src="img/sg4.JPG"></div>
+            <div class="z1">
+                <div class="h1">
+                    <p class="slideleft">Hello, World! I am</p>
+                    <h1 class="slideleft" style="font-weight: 900px">Anna Michalska</h1>
+                    <p class="topic">Creative Frontend Developer<br>
+                        Architect<br>
+                        Photographer<br>
+                        Mountain climber
+                    </p>
+                </div>
+            </div>
+            <div class="lets">
+                <p style="font-size: 30px"> &#60;Let's talk about your big stuff &amp; my future&#62;</p>
+            </div>
+        </div>
+        <nav>
+            <a class="logo" href="index.html"><img class="logo" src="img/logo.png"> </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#CV">CV</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <Section id="About">
+        <div class="text">
+            <div class="container-about">
+                <div class="icon-about">
+                    <img class="ania" src="img/ania.jpg">
+                </div>
+                <div class="tx content-about">
+                    <h2>About me</h2>
+
+                    <p>I am an architect with 8 years experience, including 4 years' in Glasgow in Scotland and 4 years'
+                        in Kraków</p>
+                    <p>Currently, I am looking for an opportunity to develop my career towards frontend development</p>
+                    <p>At the moment, I am familiarizing myself with fronend technologies with the aid of professional
+                        online courses</p>
+
+                </div>
+            </div>
+        </div>
+    </Section>
+    <section class="image" style="background-image: url('img/a1.JPG');"></section>
+
+    <section id="Portfolio" class="text left">
+
+        <h2>Portfolio</h2>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <h3>My Website</h3>
+                                <a href=""><img src="./img/p1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <h3>Creative Design</h3>
+
+                                <a href="https://michalskanna.github.io/Creative-Design/"><img src="./img/p2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <h3>Architecture Portfolio</h3>
+
+                                <a href=""><img src="./img/p3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <h3>Photography</h3>
+
+                                <a href=""><img src="./img/p4.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="image" style="background-image: url('img/a2.JPG');"></section>
+
+    <section id="Contact">
+        <section class="text">
+            <div class="box-contact">
+                <div class="container-contact">
+
+                    <div id="cont" class="tx content">
+                        <h2>Contact</h2>
+
+                        <p>phone number: +48 535 401 952</p>
+                        <p>e-mail: michalskannamaria@gmail.com</p>
+                        <div class="soc">
+                            <a href="https://github.com/michalskanna" class="git"><img src="./img/github.png"></a>
+                            <a href="https://www.linkedin.com/in/anna-m-425a3b238/" class="git"><img src="./img/linkedin.png"></a>
+                        </div>
+                    </div>
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                                <form id="contact-form" name="myForm" class="form" action="#"
+                                    onsubmit="return validateForm()" method="POST" role="form">
+
+                                    <div class="form-group">
+                                        <label class="form-label" id="nameLabel" for="name"></label>
+                                        <input type="text" class="form-control" id="name" name="name"
+                                            placeholder="Your name" tabindex="1">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" id="emailLabel" for="email"></label>
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="Your Email" tabindex="2">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" id="subjectLabel" for="sublect"></label>
+                                        <input type="text" class="form-control" id="subject" name="subject"
+                                            placeholder="Subject" tabindex="3">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" id="messageLabel" for="message"></label>
+                                        <textarea rows="6" cols="60" name="message" class="form-control" id="message"
+                                            placeholder="Your message" tabindex="4"></textarea>
+                                    </div>
+
+                                    <div class="text-center margin-top-25">
+                                        <button type="submit" class="btn btn-mod btn-border btn-large">Send
+                                            Message</button>
+                                    </div>
+
+                                </form><!-- End form -->
+
+                            </div><!-- End col -->
+
+                        </div><!-- End row -->
+
+                    </div><!-- End container -->
+
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+    </section>
+    <section class="image" style="background-image: url('img/a3.jpg');"></section>
+
+
+
+</body>
+
+</html>
